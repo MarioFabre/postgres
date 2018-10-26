@@ -1,0 +1,14 @@
+{
+    "locale":"pt_BR.utf-8",
+    "zipFileExtension":".zip",
+    "zipSourceFolder":"/home/mario/Bcredi/project/miner_prognum/temp",
+    "appFolders":{
+        "archivedDataFolder":"/home/mario/Bcredi/project/miner_prognum/data/archived",
+        "configDataFolder":"/home/mario/Bcredi/project/miner_prognum/data/config",
+        "logDataFolder":"/home/mario/Bcredi/project/miner_prognum/data/log",
+        "errorDataFolder":"/home/mario/Bcredi/project/miner_prognum/data/error",
+        "inputDataFolder":"/home/mario/Bcredi",
+        "outputDataFolder":"/home/mario/Bcredi",
+        "processDataFolder":"/home/mario/Bcredi/project/miner_prognum/data/proc"
+        }
+}

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  olist-postgres:
+    image: postgres
+    container_name: olist-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=olist
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - "db-data:/var/lib/postgresql/data"
+
+volumes:
+  db-data:
+
+networks:
+  default:
+    external:
+      name: olist
